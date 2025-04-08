@@ -23,13 +23,17 @@
         pip install matplotlib
     6. Install jupyter in the venv using the following command:
         pip install jupyter
-    7. Install tensorflow in the venv using the following command:
+    7. Install numpy in the venv using the following command:
+        pip install numpy
+    8. Install pandas in the venv using the following command:
+        pip install pandas
+    9. Install tensorflow in the venv using the following command:
         pip install tensorflow
-    8. Install the jupyter kernel editor using the following command:
+    10. Install the jupyter kernel editor using the following command:
         pip install ipykernel
-    9. Add the venv as a kernel for your version of jupyter, type in your password when prompted using the following command:
+    11. Add the venv as a kernel for your version of jupyter, type in your password when prompted using the following command:
         sudo python -m ipykernel install --name=venv --display-name "Python (venv)"
-    10. Open jupyter notebooks and then change your current kernel to Python (venv) using the following command:
+    12. Open jupyter notebooks and then change your current kernel to Python (venv) using the following command:
         jupyter notebook
 
 # NOTE: Always deactivate your venv after using with the following command:
